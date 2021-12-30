@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+}
+body {
+  background-color: #f8fafa;
+}
+hr {
+  color: #603813;
+  grid-column: 1/6;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  min-height: 100%;
+}
+
+/*BURGERMENU CSS*/
+
+.toggle_knap {
+  /*fjerner hvordan en default knap ser ud*/
+  border: none;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 5rem;
+}
+button {
+  padding: 0.6rem;
+}
+
+nav {
+  background-color: #603813;
+
+  /*placering*/
+  /*translate sørger for at nav'en hele tiden er der, men bare rykker sig ind og ud af viewport*/
+  transform: translateX(100%);
+  transition: 0.5s;
+  position: fixed; /*låser*/
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+
+  /*tekstens placering*/
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+/* denne ændrer så når man hover over menuen skifter farven til sort*/
+a:hover {
+  color: #e6ffff;
+}
+
+/*Når nav har class 'shown' skal den translate*/
+nav.shown {
+  transform: translateX(0);
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+  list-style: none;
+  gap: 5rem;
+}
+
+/*Gør at menuen ikke fylder hele siden i web version kun i mobil*/
+
+@media (min-width: 700px) {
+  nav {
+    width: 25%;
+    justify-content: start;
+    opacity: 90%;
+  }
+
+  nav ul {
+    margin-top: 150px; /*eller hvad der passer*/
+  }
+}
+
+.kryds {
+  display: none;
+}
+.toggle_knap.open .menu {
+  display: none;
+}
+
+.menu {
+  display: block;
+}
+.toggle_knap.open .kryds {
+  display: block;
+}
+
+h1 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-size: 2.3rem;
+  font-style: normal;
+  margin-bottom: 1.7rem;
+}
+h2 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 0;
+  color: #35372d;
+}
+
+p {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  max-width: 60ch;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #35372d;
+}
+h4 {
+  font-family: roboto-mono, monospace;
+
+  font-weight: 300;
+
+  font-style: normal;
+}
