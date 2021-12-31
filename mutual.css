@@ -4,13 +4,20 @@
   margin: 0;
 }
 body {
-  background-color: #f8fafa;
+  display: flex;
+  /*gør at de altid vil ligge sig i kolonner*/
+  flex-direction: column;
+  /*her siger jeg den skal fylde hele viewport height*/
+  min-height: 100vh;
+
+  background-color: #d9f0ff;
 }
 hr {
   color: #603813;
   grid-column: 1/6;
 }
-img {
+/*denne regel er lavet så den kun passer til de billeder, der er 16/9 format*/
+.img-16-9 {
   max-width: 100%;
   object-fit: cover;
   aspect-ratio: 16/9;
@@ -28,12 +35,13 @@ img {
   right: 0;
   width: 5rem;
 }
-button {
+/*denne regel er lavet så hvis man i fremtiden vil lave flere buttons at de ikke alle har den samme regel (padding 2)*/
+.p-2 {
   padding: 0.6rem;
 }
 
 nav {
-  background-color: #603813;
+  background-color: #b0d4eb;
 
   /*placering*/
   /*translate sørger for at nav'en hele tiden er der, men bare rykker sig ind og ud af viewport*/
@@ -59,7 +67,7 @@ a {
   font-style: normal;
   font-size: 1.5rem;
 }
-/* denne ændrer så når man hover over menuen skifter farven til sort*/
+/* denne ændrer så når man hover over menuen skifter farven til hvid*/
 a:hover {
   color: #e6ffff;
 }
@@ -82,7 +90,7 @@ nav ul {
   nav {
     width: 25%;
     justify-content: start;
-    opacity: 90%;
+    opacity: 95%;
   }
 
   nav ul {
