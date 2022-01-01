@@ -69,7 +69,7 @@ a {
 }
 /* denne ændrer så når man hover over menuen skifter farven til hvid*/
 a:hover {
-  color: #e6ffff;
+  color: #9e7335;
 }
 
 /*Når nav har class 'shown' skal den translate*/
