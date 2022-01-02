@@ -281,10 +281,8 @@
 
       .cls-68 {
         font-size: 89px;
-      }
-
-      .cls-68, .cls-70 {
-        font-family: Charter-Roman, Charter;
+        font-family: Charter-Bold, Charter;
+        font-weight: 700;
       }
 
       .cls-69 {
@@ -292,11 +290,16 @@
       }
 
       .cls-70 {
-        font-size: 25.53px;
+        font-size: 25px;
+        font-family: Charter-Roman, Charter;
       }
 
       .cls-71 {
         letter-spacing: -0.02em;
+      }
+
+      .cls-72 {
+        letter-spacing: 0em;
       }
     </style>
   </defs>
@@ -524,8 +527,8 @@
   <ellipse class="cls-67" cx="1129.63" cy="800.02" rx="7.53" ry="7.6"/>
   <ellipse class="cls-67" cx="1144.63" cy="823.02" rx="7.53" ry="7.6"/>
   <ellipse class="cls-67" cx="1078.63" cy="826.02" rx="7.53" ry="7.6"/>
-  <text class="cls-68" transform="translate(997.86 402.86) scale(0.86 1)">PO<tspan class="cls-69" x="114.72" y="0">R</tspan><tspan x="169.04" y="0">TFOLIO SITE</tspan></text>
-  <text class="cls-70" transform="translate(1321.61 456.83) scale(0.93 1)">L<tspan class="cls-71" x="13.27" y="0">A</tspan><tspan x="29.03" y="0">URA KRONE ELSTRUP</tspan></text>
+  <text class="cls-68" transform="translate(997.86 402.86) scale(0.86 1)">PO<tspan class="cls-69" x="119.16" y="0">R</tspan><tspan x="175.69" y="0">TFOLIO SITE</tspan></text>
+  <text class="cls-70" transform="translate(1321.61 456.83) scale(0.93 1)">L<tspan class="cls-71" x="13" y="0">A</tspan><tspan class="cls-72" x="28.43" y="0">URA KRONE ELSTRUP</tspan></text>
   <g class="cls-2">
     <path class="cls-3" d="M770.18,662.28c0-4.64,9.52-8.39,15.19-8.39s16,3.75,16,8.39-10.35,8.38-16,8.38S770.18,666.91,770.18,662.28Z"/>
     <path class="cls-3" d="M811.06,678.78c0-6.36,12.06-11.51,19.23-11.51s20.27,5.15,20.27,11.51-13.09,11.51-20.27,11.51S811.06,685.13,811.06,678.78Z"/>
