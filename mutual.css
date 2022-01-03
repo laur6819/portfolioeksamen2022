@@ -10,7 +10,7 @@ body {
   /*her siger jeg den skal fylde hele viewport height*/
   min-height: 100vh;
 
-  background-color: #d9f0ff;
+  background-color: #dcf0fd;
 }
 hr {
   color: black;
@@ -132,7 +132,7 @@ p {
   max-width: 60ch;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 2rem;
   color: #35372d;
 }
