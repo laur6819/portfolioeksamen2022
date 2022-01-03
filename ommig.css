@@ -25,6 +25,10 @@ p {
   object-fit: cover;
   min-height: 100%;
 }
+.moodboard {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
 /*media query*/
 /* alt dette er når det er i web*/
