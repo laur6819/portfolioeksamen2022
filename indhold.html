@@ -6,69 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="mutual.css" />
-    <link rel="stylesheet" href="indhold.css">
-     <link rel="icon" type="image/svg+xml" href="/billeder/favikon.svg" />
+    <link rel="stylesheet" href="indhold.css" />
+    <link rel="icon" type="image/svg+xml" href="/billeder/favikon.svg" />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Road+Rage&display=swap"
       rel="stylesheet"
     />
     <title>Portfolio eksamen</title>
   </head>
-<body>
-  <header>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">FORSIDE</a></li>
+          <li><a href="web.html">WEB</a></li>
+          <li><a href="ux.html">UX</a></li>
+          <li><a href="animation.html">ANIMATION</a></li>
+          <li><a href="indhold.html">INDHOLD</a></li>
+          <li><a href="ommig.html">OM MIG</a></li>
+        </ul>
+      </nav>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">FORSIDE</a></li>
-        <li><a href="web.html">WEB</a></li>
-        <li><a href="ux.html">UX</a></li>
-        <li><a href="animation.html">ANIMATION</a></li>
-        <li><a href="indhold.html">INDHOLD</a></li>
-         <li><a href="ommig.html">OM MIG</a></li>
-      </ul>
-    </nav>
+      <button class="toggle_knap p-2">
+        <img class="knap kryds" src="./billeder/krydsmenu.svg" alt="kryds" />
+        <img class="knap menu" src="./billeder/burgermenu.svg" alt="menu" />
+      </button>
+    </header>
+    <section class="section_1">
+      <h1>TEMA 5 - GRUNDLÆGGENDE INDHOLD</h1>
+      <hr />
+    </section>
 
-    <button class="toggle_knap p-2">
-      <img class="knap kryds" src="./billeder/krydsmenu.svg" alt="kryds" />
-      <img class="knap menu" src="./billeder/burgermenu.svg" alt="menu" />
-    </button>
-  </header>
-          <section class="section_1">
-        <h1>TEMA 5</h1>
-        <hr />
-      </section>
-
-      <section class="section_grid">
-        <figure class="img_1">
-           <img src="billeder/forside.svg" alt="img1" />
-        </figure>
-        <div class="text_1">
-          <h2>PROCES</h2>
-          <p>
-            De små italienske knallerter er mobile kaffebarer, som uafhængigt af
-            strøm og vand serverer kvalitetskaffe til dig på fortove, messer og
-            events, private arrangementer, loppemarkeder, sportsarrangementer,
-            kick off, m.m. Vognene kan også bookes til private fester og
-            arrangementer af alle arter.
-          </p>
-       <A HREF="http://www.laurakronee.dk/kea/04-animation/spil/index.html">Se her</A>
-        </div>
-        <hr class="hr_1" />
-        <figure class="img_2">
-          <img src="billeder/forside.svg" alt="img2" />
-        </figure>
-        <div class="text_2">
-          <h2>DOKUMENTATION</h2>
-          <p>
-            Den flotte Fiat "Mokka" med indbygget kaffemaskine, egner sig
-            ligeledes til alle slags events, store som små. Vi serverer
-            friskbrygget kaffe direkte fra bagagerummet til dig og dine gæster.
-          </p>
-   <A HREF="http://www.laurakronee.dk/kea/04-animation/spil/index.html">Se her</A>
-        </div>
-        <hr class="hr_2" />
-
-
+    <section class="section_grid">
+      <!-- youtubevideo indsat -->
+      <figure class="img_1">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/fe50o6rI37k"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </figure>
+      <div class="text_1">
+        <h2>BESKRIVELSE AF PILOTPROJEKT</h2>
+        <p>
+          I temaet grundlæggende indhold blev vi introduceret til
+          videoproduktion og postproduktion af billede- og videomateriale.
+          Ydermere blev vi introduceret til brugen af udstyr og brugen af det.
+          Vi skulle her lave et interview af en person med en særlig passion.
+          Her interviewede vi Sysser Dahlsborg om hendes passion for
+          boligindretning. Vi benyttede her understøttende b-rolls af Syssers
+          egen boligindretning samt hvad hun lavede på hendes arbejde på
+          Garbolund vingård. Derudover lærte vi om hvordan man kunne klippe,
+          tillægge effekter og skabe bedre lyd til videomaterialet i Adobe
+          Premiere Pro. Dernæst lærte vi hvordan man ved hjælp af Adobe Audition
+          kunne indsætte baggrundsmusik samt filtrere baggrundsstøj fra.
+        </p>
+        <a
+          href="http://www.laurakronee.dk/kea/05-indhold/01-pilot/passionforboligindretning/index.html "
+          >Se sitet her</a
+        >
+      </div>
+      <hr class="hr_1" />
+      <figure class="img_2">
+        <img src="billeder/forside.svg" alt="img2" />
+      </figure>
+      <div class="text_2">
+        <h2>DOKUMENTATION</h2>
+        <p>
+          Den flotte Fiat "Mokka" med indbygget kaffemaskine, egner sig
+          ligeledes til alle slags events, store som små. Vi serverer
+          friskbrygget kaffe direkte fra bagagerummet til dig og dine gæster.
+        </p>
+        <a href="http://www.laurakronee.dk/kea/04-animation/spil/index.html"
+          >Se her</a
+        >
+      </div>
+      <hr class="hr_2" />
+    </section>
     <script src="javascript.js"></script>
- </body>
+  </body>
 </html>
