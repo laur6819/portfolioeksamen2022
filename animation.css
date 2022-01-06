@@ -52,9 +52,6 @@ p {
 
 /*grid responsivt*/
 @media (min-width: 600px) {
-  body {
-    padding: 2rem;
-  }
   /*overskift*/
   h1 {
     margin-top: 3.2rem;
@@ -64,12 +61,12 @@ p {
   hr {
     grid-column: 1/6;
   }
+  .section2 {
+    margin-top: 1rem;
+  }
 }
 
 @media (min-width: 800px) {
-  body {
-    padding: 2rem;
-  }
   /*overskift*/
   h1 {
     margin-top: 3.2rem;
@@ -93,6 +90,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   .img_1 {
     object-fit: cover;
@@ -101,8 +99,9 @@ p {
     margin-left: 1rem;
   }
   .img_2 {
-    object-fit: cover;
-    margin-right: 1rem;
+    grid-column: 2/3;
+    grid-row: 3/1;
+    margin-left: 1rem;
   }
   /*sat i grid, og placeres derfor i midten*/
   .section_1 h1 {
