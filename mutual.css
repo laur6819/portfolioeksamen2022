@@ -10,7 +10,7 @@ body {
   /*her siger jeg den skal fylde hele viewport height*/
   min-height: 100vh;
 
-  background-color: #dcf0fd;
+  background-color: #e4f2fc;
 }
 hr {
   color: black;
@@ -62,7 +62,7 @@ nav {
 a {
   text-decoration: none;
   color: black;
-  font-family: neue-haas-grotesk-display, sans-serif;
+  font-family: "Merriweather", serif;
   font-weight: 600;
   font-style: normal;
   font-size: 1.5rem;
