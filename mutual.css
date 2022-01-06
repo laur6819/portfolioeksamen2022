@@ -10,7 +10,7 @@ body {
   /*her siger jeg den skal fylde hele viewport height*/
   min-height: 100vh;
 
-  background-color: #e4f2fc;
+  background-color: #dcedfa;
 }
 hr {
   color: black;
@@ -69,7 +69,7 @@ a {
 }
 /* denne ændrer så når man hover over menuen skifter farven til hvid*/
 a:hover {
-  color: #c1312d;
+  color: #fa8823;
 }
 
 /*Når nav har class 'shown' skal den translate*/
