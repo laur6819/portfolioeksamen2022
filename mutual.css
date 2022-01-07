@@ -60,6 +60,7 @@ nav {
   justify-content: center;
 }
 a {
+  /* gør at stregen under overskrifterne forsvinder */
   text-decoration: none;
   color: black;
   font-family: "Merriweather", serif;
@@ -67,7 +68,7 @@ a {
   font-style: normal;
   font-size: 1.5rem;
 }
-/* denne ændrer så når man hover over menuen skifter farven til hvid*/
+/* denne ændrer så når man hover over menuen skifter farven til orange*/
 a:hover {
   color: #fa8823;
 }
