@@ -87,7 +87,7 @@ nav ul {
 
 /*Gør at menuen ikke fylder hele siden i web version kun i mobil*/
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   nav {
     width: 25%;
     justify-content: start;
