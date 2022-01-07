@@ -10,18 +10,27 @@ h2 {
   margin-top: 1rem;
 }
 
-/*introduktion layout*/
+/* introduktion layout
 .section_1 {
   display: grid;
   grid-template-columns: 1fr minmax(auto, 600px) 1fr;
   margin-bottom: 30px;
   margin-top: 30px;
-}
+} */
 
-hr {
+/* hr {
   grid-column: 1/6;
+  margin-top: 2rem;
+} */
+.section1 {
+  margin-top: 1.5rem;
 }
-
+.section2 {
+  margin-top: 1.5rem;
+}
+.section3 {
+  margin-top: 1.5rem;
+}
 /*sat i grid, og placeres derfor i midten*/
 .section_1 h1 {
   grid-column: 1/4;
@@ -43,11 +52,11 @@ hr {
   grid-row: 4/5;
   margin: 0.3rem;
 }
-img {
+/* img {
   max-width: 100%;
   object-fit: cover;
   max-height: 100%;
-}
+} */
 /*grid responsivt*/
 @media (min-width: 600px) {
   body {
@@ -63,24 +72,24 @@ img {
 
   hr {
     grid-column: 1/6;
+    margin-top: 1rem;
+  }
+  p {
+    margin-bottom: 1rem;
   }
 
-  .img_1 {
-    width: 660px;
-    object-fit: cover;
-  }
   .text_1 {
     margin-left: 1.5rem;
   }
   .img_2 {
-    width: 660px;
+    width: 600px;
     object-fit: cover;
   }
   .text_2 {
     margin-left: 1.5rem;
   }
   .img_3 {
-    width: 660px;
+    width: 600px;
     object-fit: cover;
   }
   .text_3 {
