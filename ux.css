@@ -17,6 +17,7 @@ h1 {
 
 hr {
   grid-column: 1/6;
+  margin-top: 2rem;
 }
 
 /*sat i grid, og placeres derfor i midten*/
@@ -51,7 +52,7 @@ img {
   }
 
   .img_1 {
-    width: 660px;
+    width: 550px;
     object-fit: cover;
   }
   .text_1 {
@@ -85,12 +86,14 @@ img {
   .section2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
   }
   .section3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   .img_1 {
     width: 600px;
@@ -141,7 +144,7 @@ img {
   .section_grid {
     display: grid;
     /*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
-    gap: 15px;
+    /* gap: 15px; */
     margin-bottom: 20px;
   }
 
