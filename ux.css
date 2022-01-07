@@ -103,7 +103,9 @@ img {
     width: 600px;
     object-fit: cover;
   }
-
+  .text_2 {
+    margin-left: 1rem;
+  }
   .img_3 {
     width: 600px;
     object-fit: cover;
