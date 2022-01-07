@@ -194,17 +194,9 @@ img {
     grid-column: 1/2;
   }
 
-  .img_4 {
-    grid-column: 2/3;
-  }
-
   .text_2 {
     grid-row: 3/4;
     margin-right: 1rem;
-  }
-
-  .text_4 {
-    grid-row: 7/8;
   }
 }
 @media (min-width: 1200px) {
