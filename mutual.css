@@ -70,7 +70,7 @@ hr {
 .text-align-right {
   text-align: right;
 }
-
+/* display grid */
 .d-grid {
   display: grid;
 }
@@ -193,7 +193,7 @@ nav ul {
 .toggle_knap.open .kryds {
   display: block;
 }
-
+/* typografi og størrelse på skrift */
 h1 {
   font-family: "Merriweather", serif;
   font-weight: 600;
