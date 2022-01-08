@@ -1,6 +1,10 @@
 /*må gerne flex til den fulde højde*/
 #forside {
   flex: 1;
+  background: url("./billeder/forside.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #forside > img {
