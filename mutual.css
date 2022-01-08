@@ -1,8 +1,22 @@
+/* root betyder at det er regeler, der gælder for hele siden - altså variabler */
+:root {
+  --spacing-1: 0.8rem;
+  --spacing-2: 1.7rem;
+
+  --light-blue: #dcedfa;
+  --sand: #ebd2b0;
+
+  --primary-color: var(--light-blue);
+  --secondary-color: var(--sand);
+
+  --background-color: var(--light-blue);
+}
+
 * {
   box-sizing: border-box;
-
   margin: 0;
 }
+
 body {
   display: flex;
   /*gør at de altid vil ligge sig i kolonner*/
@@ -10,18 +24,27 @@ body {
   /*her siger jeg den skal fylde hele viewport height*/
   min-height: 100vh;
 
-  background-color: #dcedfa;
+  background-color: var(--background-color);
 }
 hr {
   color: black;
   grid-column: 1/6;
 }
-/*denne regel er lavet så den kun passer til de billeder, der er 16/9 format*/
+/* denne regel er lavet så den kun passer til de billeder, der er 16/9 format
 .img-16-9 {
   max-width: 100%;
   object-fit: cover;
   aspect-ratio: 16/9;
   min-height: 100%;
+} */
+
+/* klasse der bruges når bredde skal være 100% */
+.w-100 {
+  width: 100%;
+}
+/* klasse der bruges når højde er 100% */
+.h-100 {
+  width: 100%;
 }
 
 /*BURGERMENU CSS*/
@@ -38,6 +61,64 @@ hr {
 /*denne regel er lavet så hvis man i fremtiden vil lave flere buttons at de ikke alle har den samme regel (padding 2)*/
 .p-2 {
   padding: 0.6rem;
+}
+/* Jeg har her lavet en masse klasser, der passer til at kunne sætte på de forskellige sectioner - 6 er et random tal*/
+.p-6 {
+  padding: 10rem;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.d-grid {
+  display: grid;
+}
+/* margin left */
+.ml-1 {
+  margin-left: var(--spacing-1);
+}
+/* margin right */
+.mr-1 {
+  margin-right: var(--spacing-1);
+}
+/* margin top */
+.mt-1 {
+  margin-bottom: var(--spacing-1);
+}
+/* margin bottom */
+.mb-2 {
+  margin-bottom: var(--spacing-2);
+}
+
+.grid-col-2 {
+  grid-template-columns: 1fr 1fr;
+}
+/* s=small */
+@media (max-width: 1025px) {
+  .s-text-align-center {
+    text-align: center;
+  }
+
+  .s-p-3 {
+    padding: 4rem;
+  }
+
+  .s-mr-0 {
+    margin-right: 0;
+  }
+
+  .s-ml-0 {
+    margin-left: 0;
+  }
+
+  .s-gr-1 {
+    grid-row: 1;
+  }
+
+  .s-grid-col-1 {
+    grid-template-columns: 1fr;
+  }
 }
 
 nav {
@@ -70,7 +151,7 @@ a {
 }
 /* denne ændrer så når man hover over menuen skifter farven til orange*/
 a:hover {
-  color: #fa8823;
+  color: var(--sand);
 }
 
 /*Når nav har class 'shown' skal den translate*/
@@ -131,17 +212,17 @@ h2 {
 
 p {
   font-family: "Merriweather", serif;
-  max-width: 60ch;
+  /* max-width: 60ch; */
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
   line-height: 2rem;
   color: #35372d;
 }
-h4 {
+/* h4 {
   font-family: "Merriweather", serif;
 
   font-weight: 300;
 
   font-style: normal;
-}
+} */
