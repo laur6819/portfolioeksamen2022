@@ -1,7 +1,7 @@
 /* root betyder at det er regeler, der gælder for hele siden - altså variabler */
 :root {
-  --spacing-1: 0.8rem;
-  --spacing-2: 1.7rem;
+  --spacing-1: 1rem;
+  --spacing-2: 2rem;
 
   --light-blue: #dcedfa;
   --sand: #ebd2b0;
@@ -30,13 +30,13 @@ hr {
   color: black;
   grid-column: 1/6;
 }
-/* denne regel er lavet så den kun passer til de billeder, der er 16/9 format
+/* /* denne regel er lavet så den kun passer til de billeder, der er 16/9 format (om os) */
 .img-16-9 {
   max-width: 100%;
   object-fit: cover;
   aspect-ratio: 16/9;
   min-height: 100%;
-} */
+}
 
 /* klasse der bruges når bredde skal være 100% */
 .w-100 {
@@ -62,9 +62,11 @@ hr {
 .p-2 {
   padding: 0.6rem;
 }
-/* Jeg har her lavet en masse klasser, der passer til at kunne sætte på de forskellige sectioner - 6 er et random tal*/
+/* Jeg har her lavet en masse klasser, der passer til at kunne sætte på de forskellige sectioner*/
+/* denne er til forside skrift padding - 6 er et random tal*/
 .p-6 {
-  padding: 10rem;
+  padding: 16rem;
+  /* margin-top: 4rem; */
 }
 
 .text-align-right {
@@ -94,8 +96,8 @@ hr {
 .grid-col-2 {
   grid-template-columns: 1fr 1fr;
 }
-/* s=small */
-@media (max-width: 1025px) {
+/* s=small  */
+@media (max-width: 769px) {
   .s-text-align-center {
     text-align: center;
   }
@@ -149,9 +151,9 @@ a {
   font-style: normal;
   font-size: 1.5rem;
 }
-/* denne ændrer så når man hover over menuen skifter farven til orange*/
+/* ændrer så når man hover over menuen skifter farven til orange*/
 a:hover {
-  color: var(--sand);
+  color: rgb(255, 132, 0);
 }
 
 /*Når nav har class 'shown' skal den translate*/
@@ -219,10 +221,10 @@ p {
   line-height: 2rem;
   color: #35372d;
 }
-/* h4 {
+h4 {
   font-family: "Merriweather", serif;
 
   font-weight: 300;
 
   font-style: normal;
-} */
+}
