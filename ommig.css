@@ -31,8 +31,8 @@ p {
 }
 
 /*media query*/
-/* alt dette er når det er i web*/
-@media (min-width: 700px) {
+/* dette er når det er i web*/
+@media (min-width: 1000px) {
   .text {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
