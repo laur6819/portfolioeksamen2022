@@ -11,7 +11,10 @@
 
   --background-color: var(--light-blue);
 }
-
+@font-face {
+  font-family: "merrieweather";
+  src: url(Merriweather\Road_Rage/merrieweather);
+}
 * {
   box-sizing: border-box;
   margin: 0;
