@@ -34,12 +34,12 @@ hr {
   grid-column: 1/6;
 }
 /* /* denne regel er lavet så den kun passer til de billeder, der er 16/9 format (om os) */
-.img-16-9 {
+/* .img-16-9 {
   max-width: 100%;
   object-fit: cover;
   aspect-ratio: 16/9;
   min-height: 100%;
-}
+} */
 
 /* klasse der bruges når bredde skal være 100% */
 .w-100 {
