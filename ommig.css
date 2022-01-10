@@ -32,7 +32,7 @@ p {
 
 /*media query*/
 /* dette er når det er i web*/
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .text {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -43,7 +43,7 @@ p {
     line-height: 1.5rem;
   }
 
-  .text2 {
+  /* .text2 {
     text-align: center;
-  }
+  } */
 }
