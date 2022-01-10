@@ -103,7 +103,7 @@ hr {
   }
 
   .s-p-3 {
-    padding: 4rem;
+    padding: 4.8rem;
   }
 
   .s-mr-0 {
@@ -153,7 +153,7 @@ a {
 }
 /* ændrer så når man hover over menuen skifter farven til orange*/
 a:hover {
-  color: rgb(255, 132, 0);
+  color: rgb(181, 37, 4);
 }
 
 /*Når nav har class 'shown' skal den translate*/
