@@ -61,9 +61,6 @@ img {
 }
 
 @media (min-width: 481px) {
-  body {
-    padding: 2rem;
-  }
   /*overskift*/
   h1 {
     margin-top: 3.2rem;
