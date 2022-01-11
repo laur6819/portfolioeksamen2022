@@ -1,7 +1,7 @@
 /* root betyder at det er regeler, der gælder for hele siden - altså variabler */
 :root {
   --spacing-1: 1.7rem;
-  --spacing-2: 2.2rem;
+  --spacing-2: 2rem;
 
   --light-blue: #dcedfa;
   --sand: #ebd2b0;
@@ -36,7 +36,7 @@ body {
   background-color: var(--background-color);
 }
 hr {
-  color: black;
+  color: rgb(24, 23, 23);
   grid-column: 1/6;
 }
 
