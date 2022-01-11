@@ -3,7 +3,7 @@ body {
 }
 .text {
   display: grid;
-  grid-template-columns: 1/2;
+  grid-template-columns: 1fr 1fr;
   margin: 2rem;
 }
 /*overskift*/
