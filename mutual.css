@@ -1,7 +1,7 @@
 /* root betyder at det er regeler, der gælder for hele siden - altså variabler */
 :root {
-  --spacing-1: 0.8rem;
-  --spacing-2: 1.9rem;
+  --spacing-1: 1.5rem;
+  --spacing-2: 2.2rem;
 
   --light-blue: #dcedfa;
   --sand: #ebd2b0;
@@ -39,13 +39,6 @@ hr {
   color: black;
   grid-column: 1/6;
 }
-/* /* denne regel er lavet så den kun passer til de billeder, der er 16/9 format (om os) */
-/* .img-16-9 {
-  max-width: 100%;
-  object-fit: cover;
-  aspect-ratio: 16/9;
-  min-height: 100%;
-} */
 
 /* klasse der bruges når bredde skal være 100% */
 .w-100 {
