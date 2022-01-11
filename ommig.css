@@ -1,11 +1,7 @@
 body {
   padding: 2rem;
 }
-.text {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 2rem;
-}
+
 /*overskift*/
 h1 {
   margin-top: 3.2rem;
@@ -20,10 +16,15 @@ p {
   justify-content: center;
   line-height: 2.5rem;
 }
-
+.text {
+  padding-top: 1rem;
+}
 .moodboard {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.w-100 {
+  padding: 0.5rem;
 }
 
 /*media query*/
