@@ -19,7 +19,13 @@
   box-sizing: border-box;
   margin: 0;
 }
-
+main {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1400px) 1fr;
+}
+main section {
+  grid-column: 2/3;
+}
 body {
   display: flex;
   /*gør at de altid vil ligge sig i kolonner*/
