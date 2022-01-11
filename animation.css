@@ -36,9 +36,6 @@ img {
 
 /*grid responsivt*/
 @media (min-width: 320px) {
-  body {
-    padding: 2rem;
-  }
   /*overskift*/
   h1 {
     margin-top: 3.2rem;
@@ -51,13 +48,13 @@ img {
     grid-column: 1/6;
   }
 
-  .img_1 {
+  /* .img_1 {
     width: 550px;
     object-fit: cover;
-  }
-  .text_1 {
+  } */
+  /* .text_1 {
     margin-left: 1.5rem;
-  }
+  } */
 }
 
 @media (min-width: 481px) {
