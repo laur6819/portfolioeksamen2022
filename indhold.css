@@ -8,12 +8,12 @@ h1 {
 }
 
 /*introduktion layout*/
-.section_1 {
+/* .section_1 {
   display: grid;
   grid-template-columns: 1fr minmax(auto, 600px) 1fr;
   margin-bottom: 30px;
   margin-top: 30px;
-}
+} */
 
 hr {
   grid-column: 1/6;
@@ -21,13 +21,13 @@ hr {
 }
 
 /*sat i grid, og placeres derfor i midten*/
-.section_1 h1 {
+/* .section_1 h1 {
   grid-column: 1/4;
   margin-bottom: 3rem;
 }
 .section_1 p {
   grid-column: 1/3;
-}
+} */
 
 img {
   margin-bottom: 1rem;
@@ -50,11 +50,11 @@ img {
   hr {
     grid-column: 1/6;
   }
-
+  /* 
   .img_1 {
     width: 550px;
     object-fit: cover;
-  }
+  } */
   .text_1 {
     margin-left: 1.5rem;
   }
@@ -70,10 +70,10 @@ img {
     text-align: center;
   }
 
-  .section_1 {
+  /* .section_1 {
     display: grid;
     grid-template-columns: 1fr minmax(auto, 600px) 1fr;
-  }
+  } */
 
   hr {
     grid-column: 1/6;
@@ -84,9 +84,9 @@ img {
     grid-column: 1/4;
     margin-bottom: 3rem;
   }
-  .section_1 p {
+  /* .section_1 p {
     grid-column: 1/3;
-  }
+  } */
 }
 @media (min-width: 769px) {
   /*først i web skal vi bruge grid*/
@@ -94,32 +94,14 @@ img {
     display: grid;
     /*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
     /* gap: 15px; */
-    margin-bottom: 20px;
   }
 
   /*mellemrum mellem billeder+tekst i mobil*/
-  h2 {
+  /* h2 {
     margin-top: 0.5rem;
   }
 
   p {
     margin-bottom: 3rem;
-  }
-}
-@media (min-width: 1025px) {
-  /*først i web skal vi bruge grid*/
-  .section_grid {
-    display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-
-    margin-bottom: 20px;
-  }
-
-  /*mellemrum mellem billeder+tekst i mobil*/
-  h2 {
-    margin-top: 1rem;
-  }
-  p {
-    margin-bottom: 1rem;
-  }
+  } */
 }
