@@ -20,11 +20,7 @@ p {
   justify-content: center;
   line-height: 2.5rem;
 }
-/* .img_1 {
-  max-width: 100%;
-  object-fit: cover;
-  min-height: 100%;
-} */
+
 .moodboard {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -42,8 +38,4 @@ p {
     justify-content: center;
     line-height: 1.5rem;
   }
-
-  /* .text2 {
-    text-align: center;
-  } */
 }
